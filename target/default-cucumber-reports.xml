@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="50.712" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Testing the Find a pro page" name="water and heating - Example #1.1" time="50.081">
+<failure type="java.lang.AssertionError" message="There are no Pros found matching your search criteria.">
+<![CDATA[java.lang.AssertionError: There are no Pros found matching your search criteria.
+	at org.junit.Assert.fail(Assert.java:89)
+	at rheemProject.utilities.reusableMethods.writezips(reusableMethods.java:559)
+	at rheemProject.stepdefinitions.us.findaproStepDef.writeTheForWater(findaproStepDef.java:84)
+	at ✽.write the 88888 for water(file:///C:/Users/halil/Documents/Unreal%20Projects/RheemProject/src/test/resources/features/usa/findapro.feature:12)
+]]>
+</failure>
+<system-out><![CDATA[
+Given go to the "rheem" page................................................passed
+Then Click the find a pro button............................................passed
+When click the water and heating button.....................................passed
+And click the submit button.................................................passed
+And confirm the right page..................................................passed
+Then write the 88888 for water..............................................failed
+]]></system-out>
+</testcase>
+</testsuite>
